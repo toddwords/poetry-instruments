@@ -24,6 +24,7 @@ In this class we will build poetry instruments and try to get good at playing th
 ###Things we'll be using
 * [jQuery](http://jquery.com) - core library for interactive websites
 * [Mousetrap](http://craig.is/killing/mice) - small library for easily binding keyboard events
+* [http-server](https://www.npmjs.com/package/http-server) - local web server that runs real fast
 * [Freesound.org](http://freesound.org) - great source for sound effects
 * [Google Images](http://images.google.com) - where else are you gonna find your animated gifs?
 
