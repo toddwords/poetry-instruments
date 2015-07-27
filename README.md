@@ -22,10 +22,10 @@ In this class we will build poetry instruments and try to get good at playing th
 * Perform our instruments and play each other's
 
 ###Things we'll be using
-[jQuery](http://jquery.com) - core library for interactive websites
-[Mousetrap](http://craig.is/killing/mice) - small library for easily binding keyboard events
-[Freesound.org](http://freesound.org) - great source for sound effects
-[Google Images](http://images.google.com) - where else are you gonna find your animated gifs?
+* [jQuery](http://jquery.com) - core library for interactive websites
+* [Mousetrap](http://craig.is/killing/mice) - small library for easily binding keyboard events
+* [Freesound.org](http://freesound.org) - great source for sound effects
+* [Google Images](http://images.google.com) - where else are you gonna find your animated gifs?
 
 ###Stuff to help practice
 This [Codecademy course](https://www.codecademy.com/skills/make-an-interactive-website) covers a lot of the stuff we'll be talking about with javascript and jquery for interactivity.
