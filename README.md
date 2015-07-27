@@ -28,6 +28,12 @@ In this class we will build poetry instruments and try to get good at playing th
 * [Freesound.org](http://freesound.org) - great source for sound effects
 * [Google Images](http://images.google.com) - where else are you gonna find your animated gifs?
 
+###Editable Examples
+Press Shift+Space to see the code
+[Who Am I?](http://hotwriting.net/whoami)
+[Yardley, PA 1997](http://hotwriting.net/inthedark)
+[GifRapBot](http://hotwriting.net/gifRapBot)
+
 ###Stuff to help practice
 This [Codecademy course](https://www.codecademy.com/skills/make-an-interactive-website) covers a lot of the stuff we'll be talking about with javascript and jquery for interactivity.
 
