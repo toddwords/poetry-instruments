@@ -30,9 +30,9 @@ In this class we will build poetry instruments and try to get good at playing th
 
 ###Editable Examples
 Press Shift+Space to see the code
-[Who Am I?](http://hotwriting.net/whoami)
-[Yardley, PA 1997](http://hotwriting.net/inthedark)
-[GifRapBot](http://hotwriting.net/gifRapBot)
+* [Who Am I?](http://hotwriting.net/whoami)
+* [Yardley, PA 1997](http://hotwriting.net/inthedark)
+* [GifRapBot](http://hotwriting.net/gifRapBot)
 
 ###Stuff to help practice
 This [Codecademy course](https://www.codecademy.com/skills/make-an-interactive-website) covers a lot of the stuff we'll be talking about with javascript and jquery for interactivity.
