@@ -11,7 +11,7 @@ In this class we will build poetry instruments and try to get good at playing th
 * Discuss writing for this medium
 
 **HW:** Design and write a poetry instrument. What will the interactions be? What do you want it to feel like to play? Write the text, gather the images and sounds you want to use, we'll put it all together in the next class.
-###Day2
+###Day 2
 * Introduce core js interactivity functions
   * Sound - Blocking and non-blocking
   * Images

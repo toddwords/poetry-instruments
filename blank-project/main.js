@@ -18,20 +18,38 @@ Mousetrap.bind(['a','s','d','f'], function(){
 
 //some useful functions, we'll talk about these later
 
-//multiple lines
+//show multiple lines of text
 function showText (text){
-	$('body').append("<h1>"+text+"</h1>");
+	$('#textDiv').append("<h1>"+text+"</h1>");
+	//scrolls to the bottom
+	$('#bottom')[0].scrollIntoView(false);
+
 }
 
-//single line
+//show single line
 function showText2 (text){
-	if($('#textZone').length == 0){
-		$('body').append("<h1 id='textZone'>"+text+"</h1>");
+	if($('#mainText').length == 0){
+		$('textDiv').append("<h1 id='mainText'>"+text+"</h1>");
 	}
 	else {
 		$('#textZone').text(text);
 	}
 }
+function typeText(string, container, speed) {
+    var c = 0;
+    $(container).append('<h1></h1>');
+    var dest = $('h1:last')[0]; 
+    var i = setInterval(function () { //basically a while loop with a delay between each iteration
+        if (c >= string.length) {
+            $(dest).html(string);
+            clearInterval(i);
+        } else {
+            $('<span>').text(string[c]).
+            appendTo(dest);
+            c += 1;
+        }
+    }, speed); //this is the delay in milliseconds between each character, increase to slow down, decrease to speed up
+};
 function playSound (id) {
     sound = $("#" + id)[0]
     if (sound.ended){sound.currentTime = 0};
