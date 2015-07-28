@@ -15,17 +15,6 @@ Mousetrap.bind(['a','s','d','f'], function(){
 	//your code here
 })
 
-
-//some useful functions, we'll talk about these later
-
-//show multiple lines of text
-function showText (text){
-	$('#textDiv').append("<h1>"+text+"</h1>");
-	//scrolls to the bottom
-	$('#bottom')[0].scrollIntoView(false);
-
-}
-
 //some useful functions, we'll talk about these later
 
 //multiple lines
