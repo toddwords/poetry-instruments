@@ -14,7 +14,7 @@ Mousetrap.bind("r", function(){
 })
 //  add text letter by letter
 Mousetrap.bind("t", function(){
-    typeText("i'm saying something very important", 150)
+    typeText("i'm saying something very important", 300)
 })
 //  change background image
 Mousetrap.bind("a", function(){
@@ -25,7 +25,7 @@ Mousetrap.bind("s", function(){
 })
 //change bg color
 Mousetrap.bind("d", function(){
-    setBgColor("yellow")
+    setBgColor("#432543")
 })
 Mousetrap.bind("f", function(){
     setBgColor("green")
