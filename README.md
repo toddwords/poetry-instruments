@@ -16,7 +16,7 @@ In this class we will build poetry instruments and try to get good at playing th
   * Sound - Blocking and non-blocking
   * Images
   * jQuery Animation
-  * Add text letter-by-leter
+  * Add text letter-by-letter
   * Button mash
 * Work on our instruments
 * Perform our instruments and play each other's
@@ -31,8 +31,9 @@ In this class we will build poetry instruments and try to get good at playing th
 * [Google Fonts](http://google.com/fonts) - good source of easy to implement fonts
 
 ###Running a local http server
+0. Clone this repo or download/extract the zip, and remember the location
 1. Open the Terminal / command prompt 
-2. Cd (change directory) into the 'poetry-instruments' folder
+2. Cd (change directory) into the 'poetry-instruments' folder (from the repo) 
 3. Run your http-server
 	1. If you have a Mac, you can run a python http server by typing **python -m SimpleHTTPServer 8080**
 	2. If you have Python 3 (newest version), you'll have to type **python -m http.server 8080**
