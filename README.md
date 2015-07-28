@@ -24,9 +24,20 @@ In this class we will build poetry instruments and try to get good at playing th
 ###Things we'll be using
 * [jQuery](http://jquery.com) - core library for interactive websites
 * [Mousetrap](http://craig.is/killing/mice) - small library for easily binding keyboard events
+* [MeSpeak.js](http://www.masswerk.at/mespeak/) - Javascript text-to-speech library
 * [http-server](https://www.npmjs.com/package/http-server) - local web server that runs real fast
 * [Freesound.org](http://freesound.org) - great source for sound effects
 * [Google Images](http://images.google.com) - where else are you gonna find your animated gifs?
+* [Google Fonts](http://google.com/fonts) - good source of easy to implement fonts
+
+###Running a local http server
+1. Open the Terminal / command prompt 
+2. Cd (change directory) into the 'poetry-instruments' folder
+3. Run your http-server
+	a. If you have a Mac, you can run a python http server by typing **python -m SimpleHTTPServer 8080**
+	b. If you have Python 3 (newest version), you'll have to type **python -m http.server 8080**
+	c. If you have a PC you can download the node http-server linked above and just type **http-server**
+4. Open your browser and go to http://localhost:8080/your-project-folder-name
 
 ###Editable Examples
 Press Shift+Space to see the code
@@ -37,3 +48,10 @@ Press Shift+Space to see the code
 ###Stuff to help practice
 This [Codecademy course](https://www.codecademy.com/skills/make-an-interactive-website) covers a lot of the stuff we'll be talking about with javascript and jquery for interactivity.
 
+###Running a local http server
+1. Open the Terminal / command prompt 
+2. Cd (change directory) into the 'poetry-instruments' folder
+3. Run your http-server
+	a. If you have a Mac, you can run a python http server by typing **python -m SimpleHTTPServer 8080**
+	b. If you have a PC you can download the node http-server linked above and just type **http-server**
+4. Open your browser and go to http://localhost:8080/your-project-folder-name
