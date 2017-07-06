@@ -39,17 +39,21 @@ Mousetrap.bind("h", function(){
 })
 //  play sounds that will lay on top of each other
 Mousetrap.bind("z", function(){
+    showText("clap")
     playSound("clap")
 })
 Mousetrap.bind("x", function(){
+    showText("wicka")
     playSound("scratch")
 })
 Mousetrap.bind("c", function(){
+    showText("womp womp")
     playSound("sax")
 })
 //  play sounds that cut each other off
 Mousetrap.bind("v", function(){
-    playSound2("clap")
+    showText("whoa what's up")
+    playSound2("sup")
 })
 Mousetrap.bind("b", function(){
     playSound2("scratch")
