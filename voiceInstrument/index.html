@@ -1,0 +1,53 @@
+<style>
+h1 {
+	text-align: center;
+	font-size: 10em;
+	font-family: Arial Black;
+	margin-top: 10%;
+}
+html { 
+  background: url(sadDolphin.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+<script src="../jquery-1.11.1.min.js"></script>
+<script src="../mousetrap.min.js"></script>
+<script src="../mespeak.full.js"></script>
+<script>
+Mousetrap.bind("q", function(){
+	speakSpell("Hey")
+	changeBG('wink.gif')
+})
+Mousetrap.bind("w", function(){
+	speakSpell("whats")
+	changeBG('sadDolphin.gif')
+})
+Mousetrap.bind("e", function(){
+	speakSpell("up")
+	changeBG('wink.gif')
+})
+
+//Initalize Voice
+meSpeak.loadConfig("../mespeak_config.json");
+//choose a voice from the voice folder here
+meSpeak.loadVoice('../meSpeak_voices/en/en-us.json');
+var voiceSoundFiles = {};
+function speak(words){
+	if(!voiceSoundFiles[words]){
+		console.log("adding")
+		voiceSoundFiles[words] = meSpeak.speak(words, {rawdata: "array"})
+	}
+	meSpeak.play(voiceSoundFiles[words]);
+}
+function speakSpell(words) {
+	speak(words)
+	$('h1').text(words)
+}
+function changeBG(image){
+	$("html").css('background-image', 'url('+image+')'); 
+}
+</script>
+<h1>Press Q, W, E</h1>

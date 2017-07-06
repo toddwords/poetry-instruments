@@ -1,5 +1,5 @@
 Mousetrap.bind("q", function(){
-	//your code here
+    speakSpell("hey wassup")
 })
 
 Mousetrap.bind("enter", function(){
@@ -84,4 +84,21 @@ function setBgColor(color){
 }
 function setTextColor(color){
     $('html').css('color', color)
+}
+
+//Initalize Voice
+meSpeak.loadConfig("../mespeak_config.json");
+//choose a voice from the voice folder here
+meSpeak.loadVoice('../meSpeak_voices/en/en-us.json');
+var voiceSoundFiles = {};
+function speak(words){
+    if(!voiceSoundFiles[words]){
+        console.log("adding")
+        voiceSoundFiles[words] = meSpeak.speak(words, {rawdata: "array"})
+    }
+    meSpeak.play(voiceSoundFiles[words]);
+}
+function speakSpell(words) {
+    speak(words)
+    showText2(words)
 }
